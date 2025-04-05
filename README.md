@@ -44,4 +44,52 @@ Create a new product.
   "name": "Product Name",
   "priceEur": 100.0,
   "available": true
+
+Response:
+{
+  "id": 1,
+  "code": "HNB1234567",
+  "name": "Product Name",
+  "priceEur": 100.0,
+  "priceUsd": 107.49,
+  "available": true
 }
+}
+
+### GET
+
+GET /{id}
+Fetch a product by ID.
+
+GET /
+Fetch all products.
+
+ Running Locally
+ Prerequisites:
+-Java 17+
+-Maven
+-PostgreSQL running
+-Set the application.properties or application.yml to point to your database
+
+Clone and run :
+git clone https://github.com/your-username/ingemark-task.git
+cd ingemark-task
+./mvnw spring-boot:run
+
+Run the tests:
+
+git clone https://github.com/your-username/ingemark-task.git
+cd ingemark-task
+./mvnw spring-boot:run
+
+
+Notes:
+-The exchange rate is fetched from: https://api.hnb.hr/tecajn/v2
+-The rate "srednji_tecaj" is used and parsed safely (comma replaced with dot)
+-If no exchange data is returned, an exception is thrown
+-Rounding is handled to 2 decimal places via a utility class
+
+
+
+
+
