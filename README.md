@@ -44,7 +44,7 @@ Request:
   "name": "Product Name",
   "priceEur": 100.0,
   "available": true
-
+}
 Response:
 {
   "id": 1,
@@ -54,7 +54,7 @@ Response:
   "priceUsd": 107.49,
   "available": true
 }
-}
+
 
 ### GET
 
