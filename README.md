@@ -39,12 +39,7 @@ Create a new product
 
 Request Example:
 
-{
-  "code": "HNB1234567",
-  "name": "Product Name",
-  "priceEur": 100.0,
-  "available": true
-}
+<pre> ```json { "code": "HNB1234567", "name": "Product Name", "priceEur": 100.0, "available": true } ``` </pre>
 Response Example:
 
 {
