@@ -37,7 +37,7 @@ Base URL: `http://localhost:8080/api/products`
 ### POST `/`
 Create a new product.
 
-**Request:**
+Request:
 ```json
 {
   "code": "HNB1234567",
