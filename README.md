@@ -35,13 +35,10 @@ A Spring Boot RESTful API built for managing products with automatic EUR to USD 
 Base URL: `http://localhost:8080/api/products`
 
 🔹 POST /
-Create a new product.
+Create a new product
 
 Request Example:
 
-json
-Kopiraj
-Uredi
 {
   "code": "HNB1234567",
   "name": "Product Name",
@@ -50,9 +47,6 @@ Uredi
 }
 Response Example:
 
-json
-Kopiraj
-Uredi
 {
   "id": 1,
   "code": "HNB1234567",
