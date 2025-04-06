@@ -42,15 +42,7 @@ Request Example:
 <pre> ```json { "code": "HNB1234567", "name": "Product Name", "priceEur": 100.0, "available": true } ``` </pre>
 Response Example:
 
-{
-  "id": 1,
-  "code": "HNB1234567",
-  "name": "Product Name",
-  "priceEur": 100.0,
-  "priceUsd": 107.49,
-  "available": true
-}
-
+<pre> <code class="json"> { "id": 1, "code": "HNB1234567", "name": "Product Name", "priceEur": 100.0, "priceUsd": 107.49, "available": true } </code> </pre>
 
 
 
