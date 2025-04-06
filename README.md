@@ -91,5 +91,10 @@ Notes:
 
 
 
+Developed as part of a technical task for a mid-level Java Developer role at Ingemark.
+
+Feel free to fork, extend, and reuse this project!
+
+
 
 
